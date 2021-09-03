@@ -1,0 +1,179 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.left_nav {
+  padding: 28px 16px;
+  width: 250px;
+  background-color: var(--igx-surface-500);
+  flex: 0 0 auto;
+  align-items: stretch;
+}
+.row-layout {
+  padding: 0 16px 0 0;
+  align-items: center;
+  margin: 0 0 32px;
+  min-width: 50px;
+  position: relative;
+}
+.content_section {
+  padding: 16px 32px 26px;
+  background-color: var(--igx-grays-100);
+  overflow: hidden;
+  flex: 1 1 auto;
+  align-items: stretch;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+}
+.column-layout {
+  width: 300px;
+  flex: 0 0 auto;
+  align-items: stretch;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+}
+.column-layout_1 {
+  margin: 0 32px 0 0;
+  min-width: 375px;
+  flex: 1 1 auto;
+  align-items: stretch;
+  min-height: 50px;
+  position: relative;
+}
+.row-layout_1 {
+  overflow: auto;
+  align-items: stretch;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+}
+.content_toolbar {
+  align-items: center;
+  margin: 0 0 32px;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+}
+.column-layout_2 {
+  height: max-content;
+  flex: 0 0 auto;
+  align-items: stretch;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+}
+.column-layout_3 {
+  margin: 0 0 32px;
+}
+.title {
+  margin: 0 0 24px;
+  min-width: min-content;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.calendar {
+  margin: 0 0 32px;
+  width: max-content;
+  flex: 1 0 auto;
+  height: max-content;
+}
+.title_1 {
+  color: #D4D5D9;
+  flex: 1 0 auto;
+  min-width: min-content;
+  height: max-content;
+}
+.text {
+  flex: 1 0 auto;
+  min-width: min-content;
+  height: max-content;
+}
+.title_2 {
+  margin: 0 0 16px;
+  min-width: min-content;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.title_3 {
+  min-width: min-content;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.avatar {
+  flex: 0 0 auto;
+}
+.badge {
+  width: max-content;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.list {
+  margin: 0 0 16px;
+  height: auto;
+  min-width: max-content;
+  flex: 0 0 auto;
+}
+.list_1 {
+  margin: 0 0 8px;
+  height: auto;
+  min-width: max-content;
+  flex: 0 0 auto;
+}
+.list-item {
+  min-width: 0;
+  min-height: 0;
+  flex: 0 0 auto;
+}
+.button {
+  margin: 0 0 16px;
+  width: max-content;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.button_1 {
+  margin: 0 0 8px;
+  width: max-content;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.user-input {
+  margin: 0 8px 0 0;
+  flex: 0 0 auto;
+}
+.button_2 {
+  margin: 0 4px 0 0;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.button_3 {
+  width: max-content;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.button_4 {
+  height: max-content;
+  min-width: min-content;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  flex: 0 0 auto;
+}
+.icon-button {
+  flex: 0 0 auto;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}

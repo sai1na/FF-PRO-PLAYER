@@ -1,0 +1,82 @@
+<div class="column-layout column">
+  <h6 class="title">Dashboards</h6>
+  <igx-list class="list">
+    <igx-list-item class="list-item">
+      <h4 igxListLineTitle>Dashboards</h4>
+      <igx-icon font="material" [active]="true" color="var(--igx-grays-500)" igxListAction class="icon">dashboard</igx-icon>
+    </igx-list-item>
+    <igx-list-item class="list-item">
+      <h4 igxListLineTitle>Favorites</h4>
+      <igx-icon font="material" [active]="true" color="var(--igx-grays-500)" igxListAction class="icon">star</igx-icon>
+    </igx-list-item>
+    <igx-list-item class="list-item">
+      <h4 igxListLineTitle>Recent</h4>
+      <igx-icon font="material" [active]="true" color="var(--igx-grays-900)" igxListAction class="icon">access_time</igx-icon>
+    </igx-list-item>
+    <igx-list-item class="list-item">
+      <h4 igxListLineTitle>Samples</h4>
+      <igx-icon font="material" [active]="true" color="var(--igx-grays-500)" igxListAction class="icon">ballot</igx-icon>
+    </igx-list-item>
+  </igx-list>
+</div>
+<div class="column-layout_1 column">
+  <div class="row-layout row">
+    <h5 class="title_1">Recent</h5>
+  </div>
+  <div class="row-layout_1 row">
+    <igx-card type="elevated" class="card">
+      <igx-card-media height="120px">
+        <img src="https://static.infragistics.com/marketing/reveal/reveal-app-data-visualization-dashboard-screenshot-768.jpg?v=201812181150" />
+      </igx-card-media>
+      <igx-card-header>
+        <h3 igxCardHeaderTitle>Artists Analysis</h3>
+        <h5 igxCardHeaderSubtitle>Jun 15, 2020 - Jason Anderson</h5>
+      </igx-card-header>
+      <igx-card-actions class="actions">
+        <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+          <igx-icon>star_border</igx-icon>
+        </button>
+        <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+          <igx-icon>share</igx-icon>
+        </button>
+      </igx-card-actions>
+    </igx-card>
+    <igx-card type="elevated" class="card">
+      <igx-card-media height="120px">
+        <img src="https://static.infragistics.com/marketing/reveal/reveal-app-data-visualization-decision-making-create-chart-types-graphic-768.jpg?v=201812181150" />
+      </igx-card-media>
+      <igx-card-header>
+        <h3 igxCardHeaderTitle>For evaluation</h3>
+        <h5 igxCardHeaderSubtitle>Jun 15, 2020 - Martina Roberts</h5>
+      </igx-card-header>
+      <igx-card-actions class="actions">
+        <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+          <igx-icon>star</igx-icon>
+        </button>
+        <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+          <igx-icon>share</igx-icon>
+        </button>
+      </igx-card-actions>
+    </igx-card>
+    <igx-card type="elevated" class="card">
+      <igx-card-media height="120px">
+        <img src="https://static.infragistics.com/marketing/reveal/reveal-app-data-visualization-dashboard-screenshot-768.jpg?v=201812181150" />
+      </igx-card-media>
+      <igx-card-header>
+        <h3 igxCardHeaderTitle>Stylescape Results</h3>
+        <h5 igxCardHeaderSubtitle>Jun 15, 2020 - Caroline Sanders</h5>
+      </igx-card-header>
+      <igx-card-actions class="actions">
+        <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+          <igx-icon>star_border</igx-icon>
+        </button>
+        <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+          <igx-icon>share</igx-icon>
+        </button>
+      </igx-card-actions>
+    </igx-card>
+    <button igxButton="fab" type="fab" [disabled]="false" class="floating-action-button">
+      <igx-icon>add</igx-icon>
+    </button>
+  </div>
+</div>
